@@ -7,7 +7,9 @@
       "type": "string"
     },
     "dueDate": {
-      "type": "string"
+      "type": "string",
+      "minLength": 10,
+      "maxLength": 500
     }
   },
   "required": [
