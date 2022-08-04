@@ -3,7 +3,7 @@ import { TodoItem } from '../models/TodoItem'
 import { TodoUpdate } from '../models/TodoUpdate';
 import { CreateTodoRequest } from '../requests/CreateTodoRequest'
 import { UpdateTodoRequest } from '../requests/UpdateTodoRequest'
-import { getStorageUrl } from './attachmentUtils';
+import { getStorageUrl } from '../storageLogic/attachmentUtils';
 
 import { createLogger } from '../utils/logger'
 import * as uuid from 'uuid'
